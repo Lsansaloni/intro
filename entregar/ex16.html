@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>sense títol</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.22" />
+</head>
+<body>
+	
+<h3>Informació del producto</h3>
+  
+<fieldset>
+  <legend>Dades basiques</legend>
+ 
+  <label for="nom">Nom</label> 
+  <br/>
+    <input type="text" name="nom" id="nom" size="50" maxlength="250"/>
+ 
+  <br/>
+  <br/>
+ 
+  <label for="descripció">Descripció</label> 
+  <br/>
+  <textarea name="descripcion" id="descripcion" cols="40" rows="5"></textarea>
+ 
+  <br/>
+  <br/>
+ 
+  Foto <input type="file" name="foto"/>
+ 
+  <br/>
+  <br/>
+ 
+  <input name="contador" type="checkbox" value="si" /> Afageix contador de visitas
+</fieldset>
+ 
+<fieldset>
+  <legend>Dades economiques</legend>
+ 
+  <label for="preu">Preu</label> 
+  <input type="text" size="5" id="preu" name="preu" /> &euro;
+ 
+  <label for="imposts">Imposts</label> 
+  <select id="imposts" name="imposts">
+    <option value="4">4%</option>
+    <option value="7">7%</option>
+    <option value="16">16%</option>
+    <option value="25">25%</option>
+  </select>
+ 
+  <br/>
+  <br/>
+ 
+  <label>Promoció</label>
+   <br/>
+  <input type="radio" name="promocio" value="cap" checked="checked"/> Cap 
+  <br/>
+  <input type="radio" name="promocio" value="portes"/> Transporte gratuito 
+  <br/>
+  <input type="radio" name="promocio" value="descuente"/> Descompte 5%
+</fieldset>
+</form>
+</body>
+
+</html>
