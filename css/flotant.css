@@ -1,0 +1,22 @@
+*{
+padding:0px;
+margin:0px;
+}
+
+#contenedor{
+	width:500px;
+	border: solid 1px blue;
+}
+
+.capsa{
+ border:solid 1px black;
+ width:150px;
+ height:150px;
+}
+
+#caixa1{
+	float:right;
+	height:322px;
+	}
+ 
+ 
