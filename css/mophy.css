@@ -1,6 +1,8 @@
 *{
+	background:#D3D3D3;
 	margin:0px;
 	padding:0px;
+	font-family: Arial;
 }
 
 
@@ -10,39 +12,63 @@
 
 #titol{
 	width:500px;
+	font-weight:bold;
 	
 }
 
 #titol2{
- border:solid 3px #DBC9A6;
+ background:#DBC9A6;
+ border:solid 3px #9B8F76;
  width:150px;
  height:150px;
 }
+
 #groc{
+	position:absolute;
+	top:165%;
+	left:16%;
+ background:#FFFFB3;
  border:solid 3px #EBEBA5;
  width:365px;
  height:207px;
 }
 	
 #verd{
+	position:absolute;
+	top:165%;
+	left:16%;
+ background:#91FF91;
  border:solid 3px #64B064;
  width:365px;
  height:207px;
 }
 
 #blau{
+	
+position:absolute;
+	top:165%;
+	left:16%;
+ background:#C6FFFF;
  border:solid 3px #98CACA;
  width:365px;
  height:207px;
 }
 
 #vermell{
+	position:absolute;
+	top:165%;
+	left:16%;
+ background:#FFB4B4;
  border:solid 3px #865F5F;
  width:365px;
  height:207px;
 }
 
 #rosa{
+	position:absolute;
+	top:165%;
+	left:16%;
+ background:#FFE5FF;
  border:solid 3px #BAA7BA;
  width:365px;
  height:207px;

@@ -17,7 +17,7 @@
 }
 
 .left:hover{
-	background:blue;
+	background:blue; 
 	color:white;
 	border:2px white;
 }
@@ -40,4 +40,45 @@
 
 .clear{
 	clear:left;
+}
+
+.text{
+	background:pink;
+	width: 200px;
+	height:250px;
+	overflow:auto;
+}
+
+p{
+	margin:5%;
+}
+
+.zindex{
+	width:300px;
+	height:250px;
+	border:1px solid black;
+	background:#FF0000;
+}
+
+.capsa1{
+	position:absolute;
+	top:165%;
+	left:16%;
+	z-index:2;
+}
+
+.capsa2{
+	position:absolute;
+	top:195%;
+	left:26%;
+}
+
+.capsa3{
+	position:absolute;
+	top:135%;
+	left:6%;
+}
+
+.zindex:hover{
+	z-index:3;
 }
