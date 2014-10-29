@@ -2,26 +2,16 @@
 	margin:0px;
 	padding:0px;
 }
-#wrap{
- background-image: url("/home/lsansalonic/public_html/intro/img");
- }
-
+html {
+  background-image: ("/home/lsansalonic/public_html/intro/img/body.gif");
+}
 #header{
-	width: 20px;
-	height:60px;
-}
-#img{
-	width: 50px;
-	height:50px;
-}
-	
-
-#nav{
-	background: black;
-	color: white;
-	width:50px;
 	float:left;
 }
 
-#main{
-	
+#meh{
+	float:left;
+}
+.clear{
+	clear:left;
+}
