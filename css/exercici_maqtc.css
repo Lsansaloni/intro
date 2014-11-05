@@ -1,0 +1,59 @@
+* {
+	margin:0;
+	padding:0;
+}
+#tot {
+	width:100%;
+	text-align:center;
+	border: 1px solid black;
+}
+
+#cap {
+	width:90%;
+	text-align:center;
+	heigh:10%;
+	background:red;
+	border: 1px solid black;
+}
+#cont1 {
+	width:60%;
+	heigh:50%;
+	background:red;
+	border: 1px solid black;
+	float:left;
+}
+#cont2 {
+	width:15%;
+	float:left;
+	heigh:50%;
+	background:red;
+	border: 1px solid black;
+}
+#menu {
+	width:15%;
+	float:left;
+	heigh:50%;
+	background:red;
+	border: 1px solid black;
+}
+#sep {
+	width:90%;
+	float:left;
+	heigh:25%;
+	background:red;
+	border: 1px solid black;
+}
+#peu1 {
+	width:35%;
+	float:left;
+	heigh:25%;
+	background:red;
+	border: 1px solid black;
+}
+#peu2 {
+	width:35%;
+	float:left;
+	heigh:25%;
+	background:red;
+	border: 1px solid black;
+}

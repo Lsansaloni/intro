@@ -1,0 +1,17 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body {
+  background-image: ('/home/lsansalonic/public_html/intro/img/body.gif');
+}
+#header{
+	float:left;
+}
+
+#meh{
+	float:rigth;
+}
+.clear{
+	clear:left;
+}
