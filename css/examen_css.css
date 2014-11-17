@@ -1,0 +1,54 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-image: url('../img/body.gif')
+}
+
+h1 {
+	color: black;
+	font-size: 20px;
+	padding: 1%;
+}
+
+span {
+	vertical-align: top;
+	position: absolute;
+	top: 170px;
+	left: 450px;
+}
+
+#header img{
+	width: 50px;
+	float: left;
+}
+
+#imggorila {
+	margin-left: 15%;
+}
+
+#imggorila span {
+	font-family: Verdana;
+	font-size: 30px;
+	font-weight: bold;
+	background: green;
+	color: white;
+}
+
+#video {
+	margin-left: 40%;
+}
+
+#nav li {
+	text-align: left;
+	list-style: none;
+	color: white;
+	background: black;
+	padding-top: 10px;	
+	font-weight: bold;
+	float: left;
+	height: 28px;
+	width: 33%;
+}

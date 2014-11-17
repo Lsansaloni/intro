@@ -28,15 +28,15 @@
     ?>
     
 		
-    <h1>Thanks for submitting the form</h1>
-    <p>el teu nom es: <?php echo $firts. " ". $last;?></p>
-    <p>temps alla: <?php echo $how;?></p>
-    <p>te feren: <?php echo $did;?></p>
-    <p>la teves coses: <?php echo $other;?></p>
+    <h1>Gracis per la teva informació</h1>
+    <p>El teu nom es: <?php echo $firts. " ". $last;?></p>
+    <p>Temps alla: <?php echo $how;?></p>
+    <p>Va passar: <?php echo $did;?></p>
+    <p>El teu comentari ha estat: <?php echo $other;?></p>
     <p>You where abducted <?php echo $when_it_happened;?> and where gone for <?php echo $how_long;?>  </p>
-    <p>Describ them <?php echo $alien_description;?></p>
-    <p>Was fang there? <?php echo $fang_spotted;?></p>
-	<p>your email is :<?php echo $email;?></p>
+    <p>Descripció dels aliens: <?php echo $alien_description;?></p>
+    <p>Estaba el ca alla? <?php echo $fang_spotted;?></p>
+	<p>El teu email es: <?php echo $email;?></p>
 	
  
 </body>
