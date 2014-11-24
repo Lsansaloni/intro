@@ -27,6 +27,18 @@
 	$did. 'Fang spotted: '. $fang_spotted. 'other comments '. $other;
     ?>
     
+<?php
+$dbc = mysqli_connect('172.16.2.41', 'lsansaloni', 'lluc', 'aliendatabase')
+or die('Error connecting to MySQL server.');
+$query = "INSERT INTO aliens_abduction (first_name, last_name, whent_it_happened, how_long, " .
+"how_many, alien_description, what_they_did, fang_spotted, other, email) " .
+"VALUES ( '$firts', '$last', '$when_it_happened', '$how_long', '$how', '$alien_description,' " .
+"'$did', '$fang_spotted', '$other','$email')";
+$result = mysqli_query($dbc, $query)
+or die('Error querying database.');
+echo "$dbc, $query"
+mysqli_close($dbc);
+?>
 		
     <h1>Gracis per la teva informació</h1>
     <p>El teu nom es: <?php echo $firts. " ". $last;?></p>
